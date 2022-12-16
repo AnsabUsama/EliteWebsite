@@ -1,0 +1,21 @@
+.portfolioBox-1{
+    background-image: url('../workAssets/mockup1.jpg');
+}
+.portfolioBox-2{
+    background-image: url('../workAssets/mockup2.jpg');
+}
+.portfolioBox-3{
+    background-image: url('../workAssets/mockup3.jpg');
+}
+
+.portFolio_overLay{
+    background-color: rgb(20, 0, 20 ,.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: var(--transition);
+}
+.portfolioBox:hover .portFolio_overLay{
+    opacity: 1;
+}

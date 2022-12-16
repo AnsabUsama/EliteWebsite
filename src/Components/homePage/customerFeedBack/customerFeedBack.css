@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Quotation_Icon{
+    color: var(--blue);
+    font-size: 70px;
+}
+.customer_img{
+    max-width: 450px !important;
+}

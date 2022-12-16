@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.pricing_card{
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.packagePrice_title{
+    font-size: 60px;
+    color: rgb(73, 73, 73);
+    font-family: 'Poppins', sans-serif;
+}
+.pricingText{
+    font-size: 14px;
+    letter-spacing: 0;
+}

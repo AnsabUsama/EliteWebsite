@@ -1,0 +1,65 @@
+.Col_bg{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-color: black;
+    opacity: .6;
+}
+.servicesBox_padding{
+    padding: 50px;
+}
+.web_dev{
+    background-image: url('../servicesPageAsstes/web-deve.jpg') ;
+}
+.app_Dev{
+    background-image: url('../servicesPageAsstes/mobileApp-development.jpg') ;
+}
+.UI_Design{
+    background-image: url('../servicesPageAsstes/UIUX-Design.jpg');
+}
+.digital_mark{
+    background-image: url('../servicesPageAsstes/banner2.jpg');
+}
+.call_centre{
+    background-image: url('../servicesPageAsstes/callCenter.jpg');
+    background-position: 100% !important;
+}
+.langaugesLogo_box{
+    width: 50px;
+}
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .Col_bg{
+        border: 2px solid red;
+        height: 60vh;
+    }
+
+}
+@media screen and (min-width:600px) and (max-width:768px) {
+    .Col_bg{
+        border: 2px solid red;
+        height: 60vh;
+    }
+    .langaugesLogo_box{
+        width: 60px;
+    }
+    
+
+}
+@media screen and (min-width:320px) and (max-width:600px) {
+    .Col_bg{
+        border: 2px solid red;
+        height: 40vh;
+    }
+    .servicesBox_padding{
+        padding: 30px 20px;
+    }
+    .langaugesLogo_box{
+        width: 70px;
+    }
+
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.counter-bar{
+    min-height: 40vh;
+    background: var(--blue);
+    box-shadow: rgba(50, 50, 93, .4) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.4) 0px 22px 36px -18px inset;
+}
+.counter_text{
+    font-size: 28px !important;
+    line-height: 34px;
+}
+.thumb_bar{
+    width: 250px;
+    height: 1px;
+    background: lightgrey;
+    text-align: center;
+}
+
+
+@media screen and (max-width:600px) and (min-width:450px) {
+    .thumb_bar{
+        width: 180px !important;
+    }
+}
+
+@media screen and (max-width:450px) and (min-width:320px) {
+    .thumb_bar{
+        width: 120px !important;
+    }
+    .counter_text{
+        font-size: 22px !important;
+        line-height: 30px;
+    }
+}

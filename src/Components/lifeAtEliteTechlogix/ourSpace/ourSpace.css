@@ -1,0 +1,23 @@
+.lifeImgs{
+    min-height: 40vh;
+    background-size: cover;
+    background-position: 100%;
+}
+.lifeImgs-1{
+    background-image: url('../Assets/lifeAtELite_banner.jpg'); 
+}
+.lifeImgs-2{
+    background-image: url('../Assets/e1.jpg'); 
+}
+.lifeImgs-3{
+    background-image: url('../Assets/e2.jpg'); 
+}
+.lifeImgs-4{
+    background-image: url('../Assets/e3.jpg'); 
+}
+.lifeImgs-5{
+    background-image: url('../Assets/e4.jpg'); 
+}
+.lifeImgs-6{
+    background-image: url('../Assets/e5.jpg'); 
+}
